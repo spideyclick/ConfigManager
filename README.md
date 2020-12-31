@@ -1,9 +1,5 @@
 # ConfigManager
 
-This project contains the ConfigManager Library and some other files to assist in centralizing configuration to aid deployment, specifically to Docker containers.
-
-## Purpose
-
 ConfigManager is a Python library built to make INI configurations easy to deal with while extending their functionality. The goal is to safely read and write configuration data while allowing for more robust interpolation than the default Python ConfigParser library.
 
 What's wrong with the existing ConfigParser library?
@@ -22,7 +18,7 @@ What's wrong with the existing ConfigParser library?
 2. Start identifying configurations that:
   - you would like to change when deploying (testing, production, other environments)
 OR
-  - are secrets you'd prefer not to store in plain text (Vault plugin coming soon!)
+  - are secrets you'd prefer not to store in plain text (with the help of a plugin like Vault)
 3. Create a couple INI files in your project's root directory: defaultConfig.ini and config.ini.
   - Add `config.ini` to your `.gitignore` file. `config.ini` should NOT be tracked by git! You want to keep your configurations separate from your project.
   - `defaultConfig.ini` SHOULD be added to your project in git, and it should be a generic representation of what someone may want to put into the config file. It should contain all the groups and keys the `config.ini` file has, but with either empty or example values entered.
