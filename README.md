@@ -1,7 +1,5 @@
 # ConfigManager
 
-# ConfigManager
-
 This project contains the ConfigManager Library and some other files to assist in centralizing configuration to aid deployment, specifically to Docker containers.
 
 ## Purpose
