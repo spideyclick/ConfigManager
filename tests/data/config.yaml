@@ -1,0 +1,13 @@
+test_group:
+  str: "abc"
+  int: 123
+  float: 3.14
+  bool_true: true
+  bool_false: false
+array:
+- "abc"
+- 123
+- true
+test:
+  deep:
+    nesting: 0

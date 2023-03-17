@@ -1,0 +1,2 @@
+DEFAULT_INTERPOLATION_PATTERN = r"\${([^:]*):([^}]*)}"
+DEFAULT_PATH_DELIMITER = "/"

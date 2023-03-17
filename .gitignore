@@ -2,3 +2,5 @@ __pycache__/
 test/
 *.egg-info/
 build/
+.vscode/
+config_manager/plugins/tests/data/test_vault_config-main.yaml

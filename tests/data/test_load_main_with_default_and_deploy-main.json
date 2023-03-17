@@ -1,0 +1,8 @@
+{
+  "group_1": {
+    "config_name": "main",
+    "key_1": "abc",
+    "key_2": "true",
+    "default_key": 3.14
+  }
+}

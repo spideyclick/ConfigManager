@@ -1,0 +1,6 @@
+vault:
+  address: https://vault.your_domain.com/v1/
+  role_id: role_id_here
+  secret_id: secret_here
+secret: ${vault:kv/data/path/to/your/secret}
+secret_value: your_test_secret_value_here
